@@ -1,0 +1,28 @@
+setup:
+
+Install 
+
+Foundation Sass: http://foundation.zurb.com/docs/sass.html#cli
+
+Setup a launcher like:
+
+compass watch <project path>
+
+//note at bottom about proxying a server - so php in node... then run that alongside compass?
+http://www.browsersync.io/ <---better install instructions for browsersync.
+
+We can then run it as either:
+
+browser-sync start --server --files "stylesheets/*.css, *.html" <---monitor all html and css changes
+
+or as a proxy (maybe for a php/node? :))
+
+# Using a localhost address
+$ browser-sync start --proxy localhost:8001 <--port to be configured in the php-node server...
+
+
+sudo npm install connect
+sudo npm install node-phpcgi
+sudo npm install http
+
+nodejs server.js
