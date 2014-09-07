@@ -66,4 +66,5 @@ app.get('/logic', function(req, res){
 app.use('/stylesheets', express.static(__dirname + '/stylesheets'));
 app.use('/bower_components', express.static(__dirname + '/bower_components'));
 app.use('/js', express.static(__dirname + '/js'));
+
 app.listen(3001);
