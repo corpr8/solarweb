@@ -4,4 +4,4 @@
 
 cd /home/paul/solarweb
 #browser-sync start --proxy localhost:3001  --files "stylesheets/*.css, *.html"
-node server.js
+node hbServer.js
